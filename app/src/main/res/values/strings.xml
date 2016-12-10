@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Fire TV style Keyboard</string>
+
+    <string name="simple_ime">Fire TV style keyboard</string>
+    <string name="checkbox1_title">CheckBox 1</string>
+    <string name="checkbox1_summary">Summary of CheckBox 1</string>
+    <string name="settings_name">Settings</string>
+    <string name="subtype_en_US">ABC</string>
+    <string name="previous">Back</string>
+    <string name="space">Space</string>
+    <string name="delete">Delete</string>
+    <string name="clear">Clear</string>
+    <string name="next">Enter</string>
+    <string name="go">Go</string>
+    <string name="search">Search</string>
+    <string name="send">Send</string>
+    <string name="layout_settings">Layout Settings</string>
+    <string name="language_summary">Set language manually.</string>
+    <string name="language_title">Language</string>
+    <string name="about">About</string>
+    <string name="donate">PayPal</string>
+    <string name="keyboard_layout_summary">Set Keyboard layout.</string>
+    <string name="keyboard_layout_title">Keyboard layout</string>
+</resources>

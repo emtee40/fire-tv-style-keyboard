@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_pressed="true"><layer-list>
+        <item android:left="@dimen/key_pressed_padding" android:right="@dimen/key_pressed_padding" android:bottom="@dimen/key_pressed_padding" android:top="@dimen/key_pressed_padding" android:drawable="@drawable/pressed_button"></item>
+    </layer-list></item>
+    <!--<item android:drawable="@drawable/btn_shape_ftv_menu" android:state_enabled="false"></item>-->
+    <item android:drawable="@drawable/focus_button" android:state_focused="true"></item>
+    <item android:drawable="@drawable/focus_button" android:state_hovered="true"></item>
+    <item><layer-list>
+        <item android:drawable="@drawable/btn_normal_menu"></item>
+        <item android:drawable="@drawable/default_button"></item>
+    </layer-list></item>
+
+</selector>

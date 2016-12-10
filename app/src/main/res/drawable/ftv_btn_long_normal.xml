@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle" >
+    <solid
+        android:color="@color/color_long_btn_ftv"
+        />
+    <size
+        android:width="@dimen/key_size"
+        android:height="@dimen/key_size"
+        />
+</shape>

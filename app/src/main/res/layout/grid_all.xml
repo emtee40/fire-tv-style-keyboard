@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/grid_all"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:columnCount="10"
+    android:orientation="horizontal"
+    android:paddingTop="@dimen/keyboard_padding"
+    android:paddingBottom="@dimen/keyboard_padding_bot"
+    android:paddingLeft="@dimen/keyboard_padding"
+    android:paddingRight="@dimen/keyboard_padding"
+    android:background="@color/color_background_ftv"
+    android:focusable="true">
+	<!--android:focusableInTouchMode="true"-->
+
+    <com.example.semitop7.FireTVStyle.IconButton
+        android:background="@drawable/btn_shape_ftv"
+        android:id="@+id/cr00"
+        android:nextFocusLeft="@+id/cr09"
+        android:nextFocusUp="@+id/back"/>
+
+    <com.example.semitop7.FireTVStyle.IconButton
+        android:background="@drawable/btn_shape_ftv"
+        android:id="@+id/cr01"
+        android:nextFocusUp="@+id/back"/>
+
+    <com.example.semitop7.FireTVStyle.IconButton
+        android:background="@drawable/btn_shape_ftv"
+        android:id="@+id/cr02"
+        android:nextFocusUp="@+id/back"/>
+
+    <com.example.semitop7.FireTVStyle.IconButton
+        android:background="@drawable/btn_shape_ftv"
+        android:id="@+id/cr03"
+        android:nextFocusUp="@+id/back"/>
+
+    <com.example.semitop7.FireTVStyle.IconButton
+        android:background="@drawable/btn_shape_ftv"
+        android:id="@+id/cr04"
+        android:nextFocusUp="@+id/cursorLeft"/>
+
+    <com.example.semitop7.FireTVStyle.IconButton
+        android:background="@drawable/btn_shape_ftv"
+        android:id="@+id/cr05"
+        android:nextFocusUp="@+id/cursorRight"/>
+
+    <com.example.semitop7.FireTVStyle.IconButton
+        android:background="@drawable/btn_shape_ftv"
+        android:id="@+id/cr06"
+        android:nextFocusUp="@+id/next"/>
+
+    <com.example.semitop7.FireTVStyle.IconButton
+        android:background="@drawable/btn_shape_ftv"
+        android:id="@+id/cr07"
+        android:tag="cr07"
+        android:nextFocusUp="@+id/next"/>
+
+    <com.example.semitop7.FireTVStyle.IconButton
+        android:background="@drawable/btn_shape_ftv"
+        android:id="@+id/cr08"
+        android:nextFocusUp="@+id/next"/>
+
+    <com.example.semitop7.FireTVStyle.IconButton
+        android:background="@drawable/btn_shape_ftv"
+        android:id="@+id/cr09"
+        android:nextFocusRight="@+id/cr00"
+        android:nextFocusUp="@+id/next"/>
+
+    <com.example.semitop7.FireTVStyle.IconButton
+        android:background="@drawable/btn_shape_ftv"
+        android:id="@+id/cr10"
+        android:nextFocusLeft="@+id/cr19"/>
+
+    <com.example.semitop7.FireTVStyle.IconButton
+        android:background="@drawable/btn_shape_ftv"
+        android:id="@+id/cr11"/>
+
+    <com.example.semitop7.FireTVStyle.IconButton
+        android:background="@drawable/btn_shape_ftv"
+        android:id="@+id/cr12"/>
+
+    <com.example.semitop7.FireTVStyle.IconButton
+        android:background="@drawable/btn_shape_ftv"
+        android:id="@+id/cr13"/>
+
+    <com.example.semitop7.FireTVStyle.IconButton
+        android:background="@drawable/btn_shape_ftv"
+        android:id="@+id/cr14"/>
+
+    <com.example.semitop7.FireTVStyle.IconButton
+        android:background="@drawable/btn_shape_ftv"
+        android:id="@+id/cr15"/>
+
+    <com.example.semitop7.FireTVStyle.IconButton
+        android:background="@drawable/btn_shape_ftv"
+        android:id="@+id/cr16"/>
+
+    <com.example.semitop7.FireTVStyle.IconButton
+        android:background="@drawable/btn_shape_ftv"
+        android:id="@+id/cr17"/>
+
+    <com.example.semitop7.FireTVStyle.IconButton
+        android:background="@drawable/btn_shape_ftv"
+        android:id="@+id/cr18"/>
+
+    <com.example.semitop7.FireTVStyle.IconButton
+        android:background="@drawable/btn_shape_ftv"
+        android:id="@+id/cr19"
+        android:nextFocusRight="@+id/cr10"/>
+
+    <com.example.semitop7.FireTVStyle.IconButton
+        android:background="@drawable/btn_shape_ftv"
+        android:id="@+id/cr20"
+        android:nextFocusLeft="@+id/cr29"/>
+
+    <com.example.semitop7.FireTVStyle.IconButton
+        android:background="@drawable/btn_shape_ftv"
+        android:id="@+id/cr21"/>
+
+    <com.example.semitop7.FireTVStyle.IconButton
+        android:background="@drawable/btn_shape_ftv"
+        android:id="@+id/cr22"/>
+
+    <com.example.semitop7.FireTVStyle.IconButton
+        android:background="@drawable/btn_shape_ftv"
+        android:id="@+id/cr23"/>
+
+    <com.example.semitop7.FireTVStyle.IconButton
+        android:background="@drawable/btn_shape_ftv"
+        android:id="@+id/cr24"/>
+
+    <com.example.semitop7.FireTVStyle.IconButton
+        android:background="@drawable/btn_shape_ftv"
+        android:id="@+id/cr25"/>
+
+    <com.example.semitop7.FireTVStyle.IconButton
+        android:background="@drawable/btn_shape_ftv"
+        android:id="@+id/cr26"/>
+
+    <com.example.semitop7.FireTVStyle.IconButton
+        android:background="@drawable/btn_shape_ftv"
+        android:id="@+id/cr27"/>
+
+    <com.example.semitop7.FireTVStyle.IconButton
+        android:background="@drawable/btn_shape_ftv"
+        android:id="@+id/cr28"/>
+
+    <com.example.semitop7.FireTVStyle.IconButton
+        android:background="@drawable/btn_shape_ftv"
+        android:id="@+id/cr29"
+        android:nextFocusRight="@+id/cr20"/>
+
+    <com.example.semitop7.FireTVStyle.IconButton
+        android:background="@drawable/btn_shape_ftv"
+        android:id="@+id/cr30"
+        android:nextFocusLeft="@+id/cr39"/>
+
+    <com.example.semitop7.FireTVStyle.IconButton
+        android:background="@drawable/btn_shape_ftv"
+        android:id="@+id/cr31"/>
+
+    <com.example.semitop7.FireTVStyle.IconButton
+        android:background="@drawable/btn_shape_ftv"
+        android:id="@+id/cr32"/>
+
+    <com.example.semitop7.FireTVStyle.IconButton
+        android:background="@drawable/btn_shape_ftv"
+        android:id="@+id/cr33"/>
+
+    <com.example.semitop7.FireTVStyle.IconButton
+        android:background="@drawable/btn_shape_ftv"
+        android:id="@+id/cr34"/>
+
+    <com.example.semitop7.FireTVStyle.IconButton
+        android:background="@drawable/btn_shape_ftv"
+        android:id="@+id/cr35"/>
+
+    <com.example.semitop7.FireTVStyle.IconButton
+        android:background="@drawable/btn_shape_ftv"
+        android:id="@+id/cr36"/>
+
+    <com.example.semitop7.FireTVStyle.IconButton
+        android:background="@drawable/btn_shape_ftv"
+        android:id="@+id/cr37"/>
+
+    <com.example.semitop7.FireTVStyle.IconButton
+        android:background="@drawable/btn_shape_ftv"
+        android:id="@+id/cr38"/>
+
+    <com.example.semitop7.FireTVStyle.IconButton
+        android:background="@drawable/btn_shape_ftv"
+        android:id="@+id/cr39"
+        android:nextFocusRight="@id/cr30"/>
+
+    <com.example.semitop7.FireTVStyle.IconButton
+        android:background="@drawable/btn_shape_ftv_menu"
+        android:id="@+id/lang"
+        android:drawableLeft="@drawable/keyboard_key_icon_menu"
+        app:iconPadding="@dimen/keyboard_icon_padding"
+        android:layout_column="0"
+        android:layout_row="5"
+        android:layout_gravity="fill"
+        android:layout_columnSpan="2"
+        android:nextFocusLeft="@+id/clear"/>
+
+    <com.example.semitop7.FireTVStyle.IconButton
+        android:background="@drawable/btn_shape_ftv_menu"
+        android:id="@+id/shift"
+        android:layout_column="2"
+        android:layout_row="5"/>
+
+    <com.example.semitop7.FireTVStyle.IconButton
+        android:background="@drawable/btn_shape_ftv_menu"
+        android:id="@+id/symbols"
+        android:layout_column="3"
+        android:layout_row="5"/>
+
+    <com.example.semitop7.FireTVStyle.IconButton
+        android:background="@drawable/btn_shape_ftv"
+        android:id="@+id/space"
+        android:drawableLeft="@drawable/keyboard_key_icon_fast_forward"
+        app:iconPadding="@dimen/keyboard_icon_padding"
+        android:layout_column="4"
+        android:layout_row="5"
+        android:layout_gravity="fill"
+        android:layout_columnSpan="2"/>
+
+    <com.example.semitop7.FireTVStyle.IconButton
+        android:background="@drawable/btn_shape_ftv"
+        android:id="@+id/delete"
+        android:drawableLeft="@drawable/keyboard_key_icon_rewind"
+        app:iconPadding="@dimen/keyboard_icon_padding"
+        android:layout_column="6"
+        android:layout_row="5"
+        android:layout_gravity="fill"
+        android:layout_columnSpan="2"
+        android:nextFocusUp="@id/cr37"/>
+
+    <com.example.semitop7.FireTVStyle.IconButton
+        android:background="@drawable/btn_shape_ftv"
+        android:id="@+id/clear"
+        android:layout_column="8"
+        android:layout_row="5"
+        android:layout_gravity="fill"
+        android:layout_columnSpan="2"
+        android:nextFocusRight="@id/lang" />
+
+    <com.example.semitop7.FireTVStyle.IconButton
+        android:background="@drawable/btn_shape_long_ftv"
+        android:id="@+id/back"
+        android:drawableLeft="@drawable/keyboard_key_icon_back"
+        app:iconPadding="@dimen/keyboard_icon_padding"
+        android:layout_column="0"
+        android:layout_row="6"
+        android:layout_gravity="fill"
+        android:layout_columnSpan="4"
+        android:nextFocusLeft="@+id/next"
+        android:nextFocusDown="@+id/cr02"/>
+
+    <com.example.semitop7.FireTVStyle.IconButton
+        android:background="@drawable/btn_shape_long_ftv"
+        android:id="@+id/cursorLeft"
+        android:nextFocusDown="@+id/cr04"/>
+
+    <com.example.semitop7.FireTVStyle.IconButton
+        android:background="@drawable/btn_shape_long_ftv"
+        android:id="@+id/cursorRight"
+        android:nextFocusDown="@+id/cr05"/>
+
+    <com.example.semitop7.FireTVStyle.IconButton
+        android:background="@drawable/btn_shape_long_ftv"
+        android:id="@+id/next"
+        android:drawableLeft="@drawable/keyboard_key_icon_play"
+        app:iconPadding="@dimen/keyboard_icon_padding"
+        android:layout_column="6"
+        android:layout_row="6"
+        android:layout_gravity="fill"
+        android:layout_columnSpan="4"
+        android:nextFocusRight="@+id/back"
+        android:nextFocusDown="@+id/cr07"/>
+
+</GridLayout>

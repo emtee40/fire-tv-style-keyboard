@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fire TV клавіатура</string>
+    <string name="simple_ime">Fire TV клавіатура</string>
+    <string name="subtype_en_US">АБВ</string>
+    <string name="space">Пробіл</string>
+    <string name="delete">Видалити</string>
+    <string name="clear">Очистити</string>
+    <string name="next">Ввести</string>
+    <string name="go">Ввести</string>
+    <string name="search">Пошук</string>
+    <string name="send">Відіслати</string>
+    <string name="previous">Назад</string>
+    <string name="keyboard_layout_summary">Вибрати розкладка</string>
+    <string name="language_summary">Вибрати мову</string>
+    <string name="language_title">Мова</string>
+    <string name="layout_settings">Налаштування мови</string>
+    <string name="keyboard_layout_title">Розкладка клавіатури</string>
+    <string name="donate">PayPal</string>
+    <string name="about">Про автора:</string>
+    <string name="settings_name">Налаштування</string>
+</resources>
