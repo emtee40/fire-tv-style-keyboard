@@ -9,3 +9,6 @@ It works well on:
 
 Forum Page:
 https://4pda.to/forum/index.php?showtopic=728936
+
+Latest Version:
+https://4pda.to/forum/index.php?showtopic=728936&st=120#entry57250145
